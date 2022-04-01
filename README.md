@@ -13,7 +13,7 @@ to classify short message
    - pickle模块的读写模式都是wb、rb类型的，文件需要以wb、rb模式打开
    - 被pickle序列化后的文件内容不可读，但是反序列化后可以取出数据
    
-2.json
+2. json
    - json 可以传递 字符串格式的字典、数组，不可以传递 元组
    - json 最后一行末尾不可以有‘ ，’
    - json 文件总 False True 需要用 false true 来表示
